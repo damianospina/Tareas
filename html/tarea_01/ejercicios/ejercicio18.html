@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios en HTML</title>
+</head>
+
+<body>
+    <h1>Comentarios en HTML</h1>
+</body>
+    <!-- declaracion de form action=# por el motivo de que no realizara nada al enviarse method=post indicando que realizara un metodo post con este formulario enviando los datos -->
+    <form action="#" method="post">
+        <!-- fieldset indica un grupo de elementos relacionados, encerrandolos en un cuadro-->
+        <fieldset>
+            <!-- legend proporciona un título para el grupo de elementos -->
+            <legend>botones de envío</legend>
+            <!-- label e inputs donde se ven los diferentes tipos de entradas que tiene el formulario -->
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <br>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <br>
+            <label for="mensaje">Mensaje</label>
+            <input id="mensaje" name="mensaje" required></input>
+            <br>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" id="contraseña" name="contraseña" required>
+            <br>
+            <label for="numero">Número</label>
+            <input type="nummber" id="numero" name="numero">
+            <br>
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha" name="fecha" required>
+            <br>
+            <label><strong>Selecciona deportes que te gustan: </strong></label>
+            <br>
+            <label for="checkbox">futbol</label>
+            <input type="checkbox" id="checkbox" name="checkbox">
+            <label for="checkbox2">baloncesto</label>
+            <input type="checkbox" id="checkbox2" name="checkbox2">
+            <label for="checkbox3">tenis</label>
+            <input type="checkbox" id="checkbox3" name="checkbox3">
+            <br>
+            <!-- Boton de envio de los datos del formulario -->
+            <input type="submit" value="envio de datos">
+            <!-- Boton para reiniciar el formulario -->
+            <input type="reset" value="reinicar formulario">
+            <hr>
+            <!-- ruta para volver a la pagina de seleccion ejercicios -->
+            <a href="../indexTarea_01.html">Volver a la pagina de seleccion ejercicios</a>
+        </fieldset>
+        <span style="display: block; height: 600px;"></span>
+
+    </form>
+</html>
