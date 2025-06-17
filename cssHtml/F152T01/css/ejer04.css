@@ -1,0 +1,26 @@
+.verde
+{
+    background-color: green;
+}
+.naranja
+{
+    background-color: orange;
+}
+.rojo
+{
+    background-color: red;
+}
+.morado
+{
+    background-color: purple;
+}
+.blanco
+{
+    background-color: white;
+}
+thead
+{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
