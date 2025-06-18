@@ -1,0 +1,60 @@
+
+div
+{
+    width: 50%;
+    height: 30%;
+    border-width: 10px; /* sirve para dar el ancho del borde*/
+    border-color: red; /* sirve para dar el color del borde*/
+}
+.solid
+{
+    border-style: solid; /* border style:sirve para dar el estilo del borde, solid=crea una linea continua*/
+    margin-bottom: 10px;
+
+}
+
+.dashed
+{
+    border-style: dashed; /* dashed=crea una linea discontinua*/
+    margin-bottom: 10px;
+}
+.dotted
+{
+    border-style: dotted; /* dotted=crea una linea punteada*/
+    margin-bottom: 10px;
+}
+.double
+{
+    border-style: double; /*double= crea dos lineas solidas paralelas */
+    margin-bottom: 10px;
+}
+.groove
+{
+    border-style: groove; /*groove= crea un borde con efecto de relieve hundido*/
+    margin-bottom: 10px;
+}
+.ridge
+{
+    border-style: ridge;/*ridge= crea un borde con efecto de relieve sobresaliente*/
+    margin-bottom: 10px;
+}
+.inset
+{
+    border-style: inset;/*inset= crea un borde con efecto de insercion(el elemento parece hundido)*/
+    margin-bottom: 10px;
+}
+.outset
+{
+    border-style: outset;/*outset=sirve para dar un borde con efecto de salida (el elemento parece que sobresale)*/
+    margin-bottom: 10px;
+}
+.none
+{
+    border-style: none;/* none= sin bordes*/
+    margin-bottom: 10px;
+}
+.hidden
+{
+    border-style: hidden;/*Borde oculto(similiar a none pero usado en tablas en confilcto)*/
+    margin-bottom: 10px;
+}

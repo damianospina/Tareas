@@ -1,0 +1,16 @@
+body
+{
+    color: brown
+}
+h1
+{
+    color: inherit;
+}
+p
+{
+    color: inherit;
+}
+p+a
+{
+    color: inherit;
+}

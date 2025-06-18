@@ -1,0 +1,42 @@
+body
+{
+    background-color: bisque;
+}
+div
+{
+    width: 50%;
+    height: auto;
+    border-width: 2px; /* sirve para dar el ancho del borde*/
+}
+.centrado   
+{
+    border-style: solid; /* border style:sirve para dar el estilo del borde, solid=crea una linea continua*/
+    border-color: red; /* sirve para dar el color del borde*/
+    background-color: blueviolet;
+    color: brown;
+    padding: 10px 5px;
+    margin: auto;
+    margin-bottom: 10px;
+
+}
+
+.izquierda
+{
+    border-style:dashed;
+    border-color: green; /* sirve para dar el color del borde*/
+    background-color: darkkhaki;
+    color:darkblue;
+    padding: 10px 5px;
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+.derecha
+{
+    border-style: double; 
+    border-color:blue; /* sirve para dar el color del borde*/
+    background-color: black;
+    color: darkorchid;
+    padding: 10px 5px;
+margin-right: auto;
+    margin-bottom: 10px;
+}
